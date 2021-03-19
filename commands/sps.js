@@ -12,8 +12,11 @@ module.exports = {
                     activeUsers.push(users[i]);
                 }
             }
+            console.log(activeUsers.length);
             let ran = Math.round(Math.random()*(activeUsers.length-1));
+            console.log(ran);
             let sp = activeUsers[ran];
+            console.log(sp.displayName);
 
             message.channel.send("<@"+sp.id+"> ist der Spast der Stunde!");
         }

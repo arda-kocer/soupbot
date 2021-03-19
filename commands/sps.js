@@ -15,7 +15,7 @@ module.exports = {
             let ran = Math.round(Math.random()*(activeUsers.length-1));
             let sp = activeUsers[ran];
 
-            message.channel.send(sp.nickname+" ist der Spast der Stunde!");
+            message.channel.send(sp.displayName+" ist der Spast der Stunde!");
         }
 	},
 };

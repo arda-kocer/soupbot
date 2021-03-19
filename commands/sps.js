@@ -5,7 +5,7 @@ module.exports = {
 	execute(message, args) {
         console.log("sps command has been initiated.");
         if (message.guild.available) {
-            let users = Array.from(message.guild.members.cache);
+            let users = message.guild.members.cache.array();
             let activeUsers= [];
             for (let i = 0; i < users.length; i++) {
                 if (users[i].user.presence) {

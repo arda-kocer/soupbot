@@ -7,14 +7,14 @@ module.exports = {
         if (message.guild.available) {
             let users = Array.from(message.guild.members);
             let activeNumber = 0;
-            for (int i = 0; i < users.length; i++) {
+            for (let i = 0; i < users.length; i++) {
                 if (users[i].presence.status!="offline") {
                     activeNumber++;
                 }
             }
             let activeUsers[activeNumber];
-            for (int i = 0; i < activeUsers.length; i++) {
-                for (int j = 0; j < users.length; j++) {
+            for (let i = 0; i < activeUsers.length; i++) {
+                for (let j = 0; j < users.length; j++) {
                     if (users[j].presence.status!="offline") {
                         activeUsers[i] = users[j];
                         if (i+1 < activeUsers.length) {

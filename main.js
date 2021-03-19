@@ -51,6 +51,7 @@ client.on('message',async message => {
         console.log("SOUPBOT.KILLSWITCH HAS BEEN EXECUTED. BOT HAS BEEN RESET.")
     }
 
+
     // ignore message if it does not start with prefix or if author is a bot
     if (!message.content.startsWith(prefix) || message.author.bot) return;
 

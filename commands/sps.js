@@ -8,7 +8,7 @@ module.exports = {
             let users = Array.from(message.guild.members.cache.values());
             let activeUsers= [];
             for (let i = 0; i < users.length; i++) {
-                if (users[i].user.presence.status!="offline") {
+                if (users[i].presence.status!="offline") {
                     activeUsers.push(users[i]);
                 }
             }

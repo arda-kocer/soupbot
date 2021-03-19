@@ -6,25 +6,10 @@ module.exports = {
         console.log("sps command has been initiated.");
         if (message.guild.available) {
             let users = Array.from(message.guild.members);
-            let activeNumber = 0;
+            let activeUsers= [];
             for (let i = 0; i < users.length; i++) {
                 if (users[i].presence.status!="offline") {
-                    activeNumber++;
-                }
-            }
-            let activeUsers[activeNumber];
-            for (let i = 0; i < activeUsers.length; i++) {
-                for (let j = 0; j < users.length; j++) {
-                    if (users[j].presence.status!="offline") {
-                        activeUsers[i] = users[j];
-                        if (i+1 < activeUsers.length) {
-                            i++;
-                        }
-                        else {
-                            break;
-                        }
-                        continue;
-                    }
+                    activeUsers.push(users[i]);
                 }
             }
             let ran = Math.round(Math.random()*(activeUsers.length-1));

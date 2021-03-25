@@ -7,7 +7,7 @@ module.exports = {
         const auRole = message.guild.roles.cache.find(role => role.name === "AUSOUP"); 
         console.log("ronaldo command has been initiated.");
         var audios = ["./ronaldo/alkoholfreies.mp3","./ronaldo/balljunge.mp3","./ronaldo/bock.mp3","./ronaldo/calzone.mp3","./ronaldo/hilfdagott.mp3","./ronaldo/moasda.mp3",
-            "./ronaldo/nasenbaer.mp3","./ronaldo/profi.mp3","./ronaldo/ronaldo.mp3","./ronaldo/spaghetti1.mp3","./ronaldo/spaghetti2.mp3","./ronaldo/wahnsinn.mp3",,"./ronaldo/wind.mp3"];
+            "./ronaldo/nasenbaer.mp3","./ronaldo/profi.mp3","./ronaldo/ronaldo.mp3","./ronaldo/spaghetti1.mp3","./ronaldo/spaghetti2.mp3","./ronaldo/wahnsinn.mp3","./ronaldo/wind.mp3"];
         let value = Math.round(Math.random()*(audios.length-1));
         stream = audios[value];
     if (!args.length && message.member.voice.channel) {

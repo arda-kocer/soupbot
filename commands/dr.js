@@ -113,7 +113,7 @@ module.exports = {
         + "\n130 - Vögel vögel und vögel ihr Vögel\n131 - Was labert Kay da für 'ne Scheiße?\n132 - Weiber Leiter\n133 - Weihnachtsmann\n134 - Wie du und ich\n135 - Wozu brauchen wir Physik?\n136 - Hurensohn ZDF Neo\n137 - Zeckenbiss\n138 - Zehn meter mal vier\n139 - Zu miese Reime```");
         message.channel.send("```140 - Anis Penis\n141 - Arschloch aufhellen\n142 - Geballte Faust\n143 - Flowmonster John Webber\n144 - Frank weint\n145 - Gayvorite\n146 - Kalt wie Alaska\n147 - Maestro vs. Asche\n148 - Schwul aussehend\n149 - Schwulios Caesar"
         + "\n150 - Arschhaare 1\n151 - Arschhaare 2\n152 - Bar Mitzwah\n153 - Behindert\n154 - Fiat Twingo\n155 - Fick die wie Günther\n156 - Promobeef\n157 - Schiefe Nasen\n158 - Strichcode\n159 - Welt ohne Big Mac"
-        + "\n160 -Bitch, Frau und Schwester\n161 - Blasen wecken\n162 - Braun so wie Chris Brown\n163 - Johnny Depp\n164 - Entjungfert mit sechs\n165 - Gar nicht gut\n166 - JUNGS AUS DER KANALISATION\n167 - Saphirgrüne Augen\n168 - Schauspieler```");
+        + "\n160 - Bitch, Frau und Schwester\n161 - Blasen wecken\n162 - Braun so wie Chris Brown\n163 - Johnny Depp\n164 - Entjungfert mit sechs\n165 - Gar nicht gut\n166 - JUNGS AUS DER KANALISATION\n167 - Saphirgrüne Augen\n168 - Schauspieler```");
     }
     else {
         message.reply(`this user is currently not connected to any voice channel.`);

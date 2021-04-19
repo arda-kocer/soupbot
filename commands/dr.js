@@ -118,9 +118,9 @@ module.exports = {
     else if (args[0] === "ultimate") {
         for (let i = 0; i < audios.length; i++) {
             stream = audios[i];
-            let voiceChannel = message.member.voice.channel;
+            const voiceChannel = message.member.voice.channel;
             voiceChannel.join().then(connection => {
-            let dispatcher = connection.play(stream);
+            const dispatcher = connection.play(stream);
             });
         }
         dispatcher.on('finish',() => voiceChannel.leave());

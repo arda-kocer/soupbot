@@ -118,12 +118,12 @@ module.exports = {
     else if (args[0] === "ultimate") {
         for (let i = 0; i < audios.length; i++) {
             stream = audios[i];
-            const voiceChannel = message.member.voice.channel;
+            let voiceChannel = message.member.voice.channel;
             voiceChannel.join().then(connection => {
-            const dispatcher = connection.play(stream);
-            dispatcher.on('finish',() => voiceChannel.leave());
+            let dispatcher = connection.play(stream);
             });
         }
+        dispatcher.on('finish',() => voiceChannel.leave());
     }
     else {
         message.reply(`this user is currently not connected to any voice channel.`);

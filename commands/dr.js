@@ -121,7 +121,7 @@ module.exports = {
             const voiceChannel = message.member.voice.channel;
             voiceChannel.join().then(connection => {
             const dispatcher = connection.play(stream);
-            dispatcher.on('finish',() => {continue});
+            dispatcher.on('finish',() => voiceChannel.leave());
             });
         }
     }

@@ -115,16 +115,6 @@ module.exports = {
         + "\n150 - Arschhaare 1\n151 - Arschhaare 2\n152 - Bar Mitzwah\n153 - Behindert\n154 - Fiat Twingo\n155 - Fick die wie Günther\n156 - Promobeef\n157 - Schiefe Nasen\n158 - Strichcode\n159 - Welt ohne Big Mac"
         + "\n160 - Bitch, Frau und Schwester\n161 - Blasen wecken\n162 - Braun so wie Chris Brown\n163 - Johnny Depp\n164 - Entjungfert mit sechs\n165 - Gar nicht gut\n166 - JUNGS AUS DER KANALISATION\n167 - Saphirgrüne Augen\n168 - Schauspieler```");
     }
-    else if (args[0] === "ultimate") {
-        for (let i = 0; i < audios.length; i++) {
-            stream = audios[i];
-            const voiceChannel = message.member.voice.channel;
-            voiceChannel.join().then(connection => {
-            const dispatcher = connection.play(stream);
-            });
-        }
-        dispatcher.on('finish',() => voiceChannel.leave());
-    }
     else {
         message.reply(`this user is currently not connected to any voice channel.`);
         }

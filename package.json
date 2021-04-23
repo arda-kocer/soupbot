@@ -1,6 +1,6 @@
 {
   "name": "soupbot",
-  "version": "1.1.82",
+  "version": "1.1.83",
   "description": "soupbot made by suptower",
   "main": "main.js",
   "scripts": {
@@ -9,11 +9,11 @@
   "author": "suptower",
   "license": "ISC",
   "dependencies": {
-    "@discordjs/opus": "^0.3.2",
-    "discord.js": "^12.3.1",
+    "@discordjs/opus": "^0.3.3",
+    "discord.js": "^12.5.3",
     "ffmpeg-static": "^4.2.7",
     "stream-buffers": "^3.0.2",
     "text2wav": "0.0.13",
-    "ytdl-core": "^3.2.2"
+    "ytdl-core": "^3.4.2"
   }
 }

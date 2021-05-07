@@ -13,10 +13,10 @@ module.exports = {
             .setDescription('A Discord bot provided to you by suptower.')
             .addFields(
                 { name: '\u200B', value: '\u200B' },
-                { name: 'Documentation', value: 'http://bit.ly/soupbotDoc' },
+                { name: 'Documentation (not up to date)', value: 'http://bit.ly/soupbotDoc' },
             )
             .setTimestamp()
-            .setFooter('Updated: 19th of January, 2021');
+            .setFooter('Updated: 7th of May, 2021');
 
             message.channel.send(InfoEmbed);
 	},

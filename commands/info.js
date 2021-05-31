@@ -16,7 +16,7 @@ module.exports = {
                 { name: 'Documentation (not up to date)', value: 'http://bit.ly/soupbotDoc' },
             )
             .setTimestamp()
-            .setFooter('Version 1.1.91 | Updated: 24th of May, 2021');
+            .setFooter('Version 1.1.92 | Updated: 31st of May, 2021');
 
             message.channel.send(InfoEmbed);
 	},

@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 module.exports = {
     name: 'lion',
-    cooldown: 10,
+    cooldown: 60,
 	description: 'uncomfy',
 	execute(message, args) {
         console.log("lion command has been initiated.");

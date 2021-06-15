@@ -1,6 +1,6 @@
 {
   "name": "soupbot",
-  "version": "1.2.03",
+  "version": "1.2.4",
   "description": "soupbot made by suptower",
   "main": "main.js",
   "scripts": {

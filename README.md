@@ -5,7 +5,7 @@ soupbot is a Discord bot brought to you by suptower. It offers wide meme command
 This bot is currently only available to exclusive servers. In order to add this bot to your own server, feel free to message me on Discord.
 
 ## Usage
-There is currently no up to date documentation about any command for this bot. Prefix for commands is "sb", case-sensitive. You can always check this outdated [Documentation](https://bit.ly/soupbotDoc) in case you want information to older commands. I am working to implement a documentation on the own Wiki page of this repository.
+The wiki of this repository is being used as documentation and will explain everything to you you need to know about using the bot.
 
 I highly recommend adding the required "AUSOUP" role to your server if you want the bot to function properly. Simply create a new role called AUSOUP, you do not need to change any permissions.
 

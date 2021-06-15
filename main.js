@@ -116,8 +116,8 @@ client.on('message',async message => {
     // assign command variable
     const command = client.commands.get(commandName);
 
-    // ADMINs do ignore cooldown
-    if (!message.member.permissions.has('ADMINISTRATOR')) {
+    // ADMINs and suptower do ignore cooldown
+    if (!message.member.permissions.has('ADMINISTRATOR') || message.client.user.id === "211539634449154048") {
         if (!cooldowns.has(command.name)) {
             cooldowns.set(command.name, new Discord.Collection());
         }

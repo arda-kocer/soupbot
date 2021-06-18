@@ -1,6 +1,8 @@
 # soupbot
 soupbot is a Discord bot brought to you by suptower. It offers wide meme commands.
 
+Birthday: 30th of August, 2020
+
 ## Adding to your server
 This bot is currently only available to exclusive servers. In order to add this bot to your own server, feel free to message me on Discord.
 

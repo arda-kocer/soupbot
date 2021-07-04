@@ -29,7 +29,8 @@ module.exports = {
         './deutschrap/bangfaust.mp3','./deutschrap/flowking.mp3','./deutschrap/frankweint.mp3','./deutschrap/gayvorite.mp3','./deutschrap/kaltwiealaska.mp3','./deutschrap/maestro_asche.mp3','./deutschrap/schwulaussehend.mp3','./deutschrap/schwulios.mp3','./deutschrap/arschhaare1.mp3','./deutschrap/arschhaare2.mp3',
         './deutschrap/barmitzwah.mp3','./deutschrap/behindert.mp3','./deutschrap/fiattwingo.mp3','./deutschrap/guenther.mp3','./deutschrap/promobeef.mp3','./deutschrap/schiefenasen.mp3','./deutschrap/strichcode.mp3','./deutschrap/weltohnebigmac.mp3','./deutschrap/bitchfrauschwester.mp3','./deutschrap/blasenwecken.mp3',
         './deutschrap/braunchrisbrown.mp3','./deutschrap/depp.mp3','./deutschrap/entjungfertmitsechs.mp3','./deutschrap/garnichtgut.mp3','./deutschrap/kanalisation.mp3','./deutschrap/saphirgruen.mp3','./deutschrap/schauspieler.mp3','./deutschrap/anakonda1.mp3','./deutschrap/anakonda2.mp3','./deutschrap/endoftheroad.mp3',
-        './deutschrap/hesheit.mp3','./deutschrap/lilhuso.mp3','./deutschrap/pflaumenschnaps.mp3','./deutschrap/sackhaar.mp3','./deutschrap/verschonen.mp3','./deutschrap/weizenbrot.mp3','./deutschrap/weyo.mp3'];
+        './deutschrap/hesheit.mp3','./deutschrap/lilhuso.mp3','./deutschrap/pflaumenschnaps.mp3','./deutschrap/sackhaar.mp3','./deutschrap/verschonen.mp3','./deutschrap/weizenbrot.mp3','./deutschrap/weyo.mp3','./deutschrap/bremen.mp3','./deutschrap/caesar.mp3','./deutschrap/geheimtipp.mp3','./deutschrap/imposand.mp3','./deutschrap/kcgay.mp3','./deutschrap/mathemitfler.mp3',
+        './deutschrap/minibar.mp3','./deutschrap/pradaak.mp3','./deutschrap/rotzfotz.mp3','./deutschrap/steckdose.mp3'];
         let value = Math.round(Math.random()*(audios.length-1));
         stream = audios[value];
     if (!args.length && message.member.voice.channel) {
@@ -115,7 +116,8 @@ module.exports = {
         message.channel.send("```140 - Anis Penis\n141 - Arschloch aufhellen\n142 - Geballte Faust\n143 - Flowmonster John Webber\n144 - Frank weint\n145 - Gayvorite\n146 - Kalt wie Alaska\n147 - Maestro vs. Asche\n148 - Schwul aussehend\n149 - Schwulios Caesar"
         + "\n150 - Arschhaare 1\n151 - Arschhaare 2\n152 - Bar Mitzwah\n153 - Behindert\n154 - Fiat Twingo\n155 - Fick die wie Günther\n156 - Promobeef\n157 - Schiefe Nasen\n158 - Strichcode\n159 - Welt ohne Big Mac"
         + "\n160 - Bitch, Frau und Schwester\n161 - Blasen wecken\n162 - Braun so wie Chris Brown\n163 - Johnny Depp\n164 - Entjungfert mit sechs\n165 - Gar nicht gut\n166 - JUNGS AUS DER KANALISATION\n167 - Saphirgrüne Augen\n168 - Schauspieler\n169 - Anakonda 1```");
-        message.channel.send("```170 - Anakonda 2\n171 - End of the road\n172 - HE SHE IT\n173 - Lil Huso\n174 - Pflaumenschnaps\n175 - Sackhaar\n176 - Verschonen\n177 - Weizenbrot\n178 - WEYO```");
+        message.channel.send("```170 - Anakonda 2\n171 - End of the road\n172 - HE SHE IT\n173 - Lil Huso\n174 - Pflaumenschnaps\n175 - Sackhaar\n176 - Verschonen\n177 - Weizenbrot\n178 - WEYO"
+        + "\n180 - Bremen\n181 - Caesar\n182 - Geheimtipp\n183 - Im Po Sand\n184 - KC GAY\n185 - Mathe mit FLER\n186 - Minibar\n187 - Prada AK\n188 - Rotzfotz\n189 - Steckdose```");
     }
     else {
         message.reply(`this user is currently not connected to any voice channel.`);

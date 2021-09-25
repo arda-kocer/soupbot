@@ -181,6 +181,14 @@ client.on('voiceStateUpdate', (oldState, newState) => {
                 dispatcher.on('finish', () => newUserChannel.leave());
             })
         }
+        else if (newState.id==="244547047099858946") {
+            newUserChannel.join().then(connection => {
+                console.log("waller krise");
+                const stream = "./assets/krise.mp3";
+                const dispatcher = connection.play(stream);
+                dispatcher.on('finish', () => newUserChannel.leave());
+            })
+        }
     }
     
 
